@@ -1,6 +1,7 @@
 <h1><%= @article.title %></h1>
 <%= @article.content %>
 
-<form action="index.html" method="post">
-
+<form action="/articles/<%= @model.id %>" method="post">
+    <input id="hidden" type="hidden" name="_method" value="patch">
+    <input type="text" ...>
 </form>
