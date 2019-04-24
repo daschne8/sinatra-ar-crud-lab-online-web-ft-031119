@@ -32,4 +32,8 @@ class ApplicationController < Sinatra::Base
     erb :display_articles
   end
 
+  get '/articles/:id/edit' do
+
+  end
+
 end
